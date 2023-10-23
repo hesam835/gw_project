@@ -67,7 +67,7 @@ def import_from_csv():
 
 def search_contacts():
     contact_load_data()
-    operation = input("Enter 1.name or 2.email address to search for: ")
+    operation = input("Ener 1.name or 2.email address to search for me: ")
     search_results = []
     if operation == "1":
         name_input = input("Enter contacts name: ")
